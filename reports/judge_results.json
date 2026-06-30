@@ -1,0 +1,232 @@
+{
+  "total_questions": 10,
+  "cohen_kappa": 0.7826,
+  "judge_labels": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+  ],
+  "human_labels": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "bias_report": {
+    "total_judged": 10,
+    "position_bias_rate": 0.1,
+    "position_bias_count": 1,
+    "verbosity_bias": 0.375,
+    "verbosity_details": {
+      "a_wins_a_longer": 0,
+      "b_wins_b_longer": 3,
+      "total_decisive": 8
+    },
+    "interpretation": "Position bias thap - judge kha on dinh."
+  },
+  "judge_results": [
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày khi kết hôn?",
+      "answer_a": "Nhân viên được nghỉ 3 ngày làm việc có lương khi kết hôn.",
+      "answer_b": "Chính xác và đầy đủ.\nNhân viên được nghỉ bao nhiêu ngày khi kết hôn?",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A provides a direct and clear response to the question with specific information about the number of days off, while Answer B is merely a validation without providing substantial information.",
+      "reasoning_pass2": "Answer B cung cấp thông tin cụ thể về số ngày nghỉ khi kết hôn, trong khi Answer A chỉ lặp lại câu hỏi mà không có thông tin bổ sung.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.0
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.0
+      }
+    },
+    {
+      "question": "Muốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",
+      "answer_a": "Cần Giám đốc phòng ban phê duyệt.",
+      "answer_b": "Sai — 55 triệu vượt ngưỡng 50 triệu nên phải CEO phê duyệt, không phải Director.\nMuốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "reasoning_pass1": "Answer B cung cấp thông tin chính xác về ngưỡng phê duyệt, giải thích rõ ràng ai là người cần phê duyệt cho giao dịch này.",
+      "reasoning_pass2": "Câu trả lời A chính xác hơn vì 55 triệu vượt ngưỡng 50 triệu, cần CEO phê duyệt, trong khi câu trả lời B không chính xác.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.0,
+        "B": 1.0
+      },
+      "scores_pass2": {
+        "A": 0.0,
+        "B": 1.0
+      }
+    },
+    {
+      "question": "Thưởng Tết tối thiểu cho nhân viên chính thức có từ 6 tháng trở lên là bao nhiêu?",
+      "answer_a": "Nhân viên được thưởng Tết tối thiểu 1 tháng lương.",
+      "answer_b": "Đúng và súc tích.\nThưởng Tết tối thiểu cho nhân viên chính thức có từ 6 tháng trở lên là bao nhiêu?",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A cung cấp thông tin cần thiết về mức thưởng Tết tối thiểu, trong khi Answer B không bổ sung thêm thông tin nào và chỉ lặp lại câu hỏi.",
+      "reasoning_pass2": "Answer B cung cấp thông tin cụ thể về mức thưởng Tết, trong khi Answer A chỉ lặp lại câu hỏi mà không đưa ra câu trả lời nào.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.0
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.0
+      }
+    },
+    {
+      "question": "Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?",
+      "answer_a": "Được nghỉ 18 ngày phép (15 cơ bản + 3 thâm niên). Lương Senior từ 20 đến 35 triệu.",
+      "answer_b": "Tính đúng, bao gồm cả phép và lương.\nMột nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A cung cấp thông tin chính xác về số ngày phép và khoảng lương cho vị trí Senior, trong khi Answer B không cung cấp thông tin cụ thể như vậy.",
+      "reasoning_pass2": "Answer B cung cấp thông tin cụ thể về số ngày phép và khoảng lương chính xác cho nhân viên Senior có 9 năm kinh nghiệm, trong khi Answer A không làm rõ và có dấu hiệu thiếu chính xác.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.0
+      },
+      "scores_pass2": {
+        "A": 0.8,
+        "B": 0.2
+      }
+    },
+    {
+      "question": "Nhân viên được tài trợ khóa học 25 triệu, nghỉ việc sau 8 tháng. Phải hoàn trả bao nhiêu?",
+      "answer_a": "Hoàn trả 25 triệu vì chưa đủ 1 năm cam kết.",
+      "answer_b": "Đúng — 100% hoàn trả vì nghỉ trước 12 tháng.\nNhân viên được tài trợ khóa học 25 triệu, nghỉ việc sau 8 tháng. Phải hoàn trả bao nhiêu?",
+      "winner_pass1": "tie",
+      "winner_pass2": "tie",
+      "final_winner": "tie",
+      "reasoning_pass1": "Cả hai câu trả lời đều đúng trong ngữ cảnh của vấn đề, nhưng chưa cung cấp thông tin đầy đủ về quy định hoàn trả cụ thể của công ty. Do đó, không thể xác định một câu trả lời chính xác hơn câu kia.",
+      "reasoning_pass2": "Cả hai đáp án đều đúng. Cả A và B đều chỉ ra rằng nhân viên phải hoàn trả 25 triệu do chưa đủ 1 năm cam kết. Tuy nhiên, A nhấn mạnh hoàn trả 100% mà không giải thích rõ. Do đó, câu trả lời không gây nhầm lẫn là B.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.5,
+        "B": 0.5
+      },
+      "scores_pass2": {
+        "A": 0.5,
+        "B": 0.5
+      }
+    },
+    {
+      "question": "Nhân viên tạm ứng 8 triệu, chưa thanh toán sau 30 ngày. Ai phê duyệt và phí phạt là bao nhiêu?",
+      "answer_a": "Trưởng phòng phê duyệt. Phạt 2% tháng trên 8 triệu.",
+      "answer_b": "Thiếu — 8 triệu cần cả Kế toán trưởng. Phạt phải tính pro-rata cho 15 ngày quá hạn = 80.000 VNĐ.\nNhân viên tạm ứng 8 triệu, chưa thanh toán sau 30 ngày. Ai phê duyệt và phí phạt là bao nhiêu?",
+      "winner_pass1": "B",
+      "winner_pass2": "tie",
+      "final_winner": "tie",
+      "reasoning_pass1": "Answer B provides a more comprehensive and accurate response by including the requirement for the approval from the Chief Accountant and calculating the penalty based on the actual delay in days, which is more precise than a flat percentage.",
+      "reasoning_pass2": "Cả hai câu trả lời đều thiếu thông tin quan trọng, tuy nhiên A cung cấp thông tin chi tiết về việc phê duyệt từ Kế toán trưởng và phương pháp tính phí phạt. B thiếu thông tin về ai phê duyệt rõ ràng hơn và không cung cấp cụ thể về số ngày quá hạn.",
+      "position_consistent": false,
+      "scores_pass1": {
+        "A": 0.4,
+        "B": 0.6
+      },
+      "scores_pass2": {
+        "A": 0.4,
+        "B": 0.6
+      }
+    },
+    {
+      "question": "Nhân viên Manager có thâm niên 12 năm: tổng phụ cấp hàng tháng và số ngày phép năm?",
+      "answer_a": "Phép: 19 ngày. Phụ cấp: 1.500.000 VNĐ/tháng.",
+      "answer_b": "Tính đúng cả hai.\nNhân viên Manager có thâm niên 12 năm: tổng phụ cấp hàng tháng và số ngày phép năm?",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A provides specific and concise information regarding both the number of annual leave days and the monthly allowance, which is directly relevant to the question. Answer B is vague and does not provide any specific figures.",
+      "reasoning_pass2": "Answer B cung cấp đầy đủ thông tin về số ngày phép và phụ cấp cụ thể cho nhân viên Manager có thâm niên 12 năm, trong khi Answer A chỉ lặp lại câu hỏi mà không đưa ra thông tin cụ thể nào.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.0
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.0
+      }
+    },
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày phép năm?",
+      "answer_a": "Nhân viên được nghỉ 12 ngày phép năm.",
+      "answer_b": "Sai — trả lời theo v2023 đã hết hiệu lực. v2024 hiện hành là 15 ngày.\nNhân viên được nghỉ bao nhiêu ngày phép năm?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "reasoning_pass1": "Answer B cung cấp thông tin chính xác hơn về số ngày nghỉ phép năm, dựa trên quy định hiện hành v2024, so với Answer A dựa trên thông tin không còn hiệu lực.",
+      "reasoning_pass2": "Answer A cung cấp thông tin cập nhật chính xác theo quy định năm 2024, trong khi Answer B đưa ra thông tin sai lệch. ",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.0,
+        "B": 1.0
+      },
+      "scores_pass2": {
+        "A": 0.0,
+        "B": 1.0
+      }
+    },
+    {
+      "question": "Nhân viên thử việc có được nghỉ phép năm không?",
+      "answer_a": "Nhân viên thử việc không được nghỉ phép năm và phải xin nghỉ không lương nếu cần.",
+      "answer_b": "Đúng hoàn toàn, bao gồm hành động thay thế.\nNhân viên thử việc có được nghỉ phép năm không?",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Câu A cung cấp thông tin chính xác về việc nhân viên thử việc không có quyền nghỉ phép năm và phải xin nghỉ không lương. Câu B không trả lời trực tiếp mà lại lặp lại câu hỏi, do đó ít hữu ích hơn.",
+      "reasoning_pass2": "Câu trả lời B chính xác hơn vì theo quy định pháp luật, nhân viên thử việc thường không được hưởng chế độ nghỉ phép năm như nhân viên chính thức.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.0
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.0
+      }
+    },
+    {
+      "question": "Nhân viên Manager có thể dùng VPN cá nhân (NordVPN) khi WFH không?",
+      "answer_a": "Được, miễn là đảm bảo kết nối an toàn.",
+      "answer_b": "Sai — VPN cá nhân bị cấm theo chính sách VPN v1.3. Phải dùng VPN WireGuard của công ty.\nNhân viên Manager có thể dùng VPN cá nhân (NordVPN) khi WFH không?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "reasoning_pass1": "Theo chính sách VPN v1.3, VPN cá nhân bị cấm, vì vậy chỉ có VPN của công ty mới được phép sử dụng.",
+      "reasoning_pass2": "Chính sách VPN rõ ràng cấm sử dụng VPN cá nhân, vì vậy Answer A đúng và đầy đủ. Answer B không tuân thủ chính sách công ty.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.0,
+        "B": 1.0
+      },
+      "scores_pass2": {
+        "A": 0.0,
+        "B": 1.0
+      }
+    }
+  ]
+}
